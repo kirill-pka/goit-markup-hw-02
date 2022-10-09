@@ -1,0 +1,208 @@
+:root {
+    --main-color: #212121;
+    --second-color: #757575;
+    --change-color: #2196F3;
+}
+
+/* GENERAL STYLES */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.first-part {
+    color: var(--change-color)
+}
+
+.last-part {
+    color: #000000;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+.header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.header-mail-link,
+.header-tel-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--second-color)
+}
+
+
+/* Hero */
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2F303A;
+}
+
+.button-hero {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2196F3;
+}
+
+.button-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    color: var(--main-color)
+}
+
+.section-title-none {
+    display: none;
+}
+/* Особливості */
+
+.peculiarities-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color)
+}
+
+.peculiarities-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--second-color)
+}
+
+/* Наша команда */
+
+.about-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: var(--main-color)
+}
+
+.about-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: var(--second-color)
+}
+
+/* Фильтр работ */
+
+.button {
+    color: #F5F4FA;
+    background: transparent;
+}
+
+.botton-type:hover,
+.botton-type:focus {
+    background: var(--change-color)
+}
+
+.botton-text {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color)
+}
+
+.botton-text:hover {
+    color: #FFFFFF;
+}
+
+/* Портфолио */
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+/* Контакты */
+
+.footer-list {
+    background-color: #2F303A;
+}
+
+.last-part-footer {
+    color: #FFFFFF;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+    text-decoration: none;
+}
