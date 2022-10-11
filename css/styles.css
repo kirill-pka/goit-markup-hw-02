@@ -73,8 +73,8 @@ body {
     line-height: calc(60 / 44);
     letter-spacing: 0.06em;
     color: var(--White-color);
-    background: var(--background-hero)
-    
+    background: var(--background-hero);
+    text-transform: uppercase;
 }
 
 .button-hero {
@@ -87,19 +87,16 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--White-color)
+    color: var(--White-color);
+    border: 0;
 }
 
-/* .button-text {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--White-color)
-} */
+.button-hero:hover,
+.button-hero:focus {
+    cursor: pointer;
+    color: var(--main-color);
+    background: var(--corol-button)
+}
 
 .section-title {
     font-weight: 700;
@@ -154,20 +151,20 @@ body {
 .button {
     color: var(--corol-button);
     background: transparent;
+    list-style: none;
+}
+
+.botton-type {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+    border: 0;
 }
 
 .botton-type:hover,
 .botton-type:focus {
+    cursor: pointer;
+    color: var(--White-color);
     background: var(--change-color)
-}
-
-.botton-text {
-    font-family: 'Roboto', sans-serif;
-    color: var(--main-color)
-}
-
-.botton-text:hover {
-    color: var(--White-color)
 }
 
 /* Портфолио */
@@ -205,7 +202,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: var(--White-color)
+    color: var(--White-color);
     text-decoration: none;
 
 }
