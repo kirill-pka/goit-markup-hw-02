@@ -115,9 +115,19 @@ body {
     color: var(--main-color)
 }
 
-.section-title-none {
-    display: none;
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
+
 /* Особливості */
 
 .peculiarities-title {
@@ -141,6 +151,11 @@ body {
 
 .section-tem {
     background-color: var(--corol-button);
+}
+
+.section-list li {
+    background-color: var(--White-color);
+    list-style: none;
 }
 
 .about-team {
@@ -168,7 +183,13 @@ body {
 }
 
 .botton-type {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--main-color);
     border: 0;
 }
@@ -208,6 +229,10 @@ body {
     color: var(--White-color)
 }
 
+.adress-list {
+    list-style: none;
+}
+
 .address {
     font-family: 'Roboto';
     font-style: normal;
@@ -216,7 +241,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--White-color);
-
+    text-decoration: none;
 }
 
 .contact {
@@ -226,6 +251,6 @@ body {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: var(--second-color);
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
