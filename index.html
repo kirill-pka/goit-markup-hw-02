@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,42 +21,43 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    
     <!-- Панель навигации -->
-    <header>
-      <nav class="header-nav">
-        <a class="logo" href="./index.html"
-          ><span class="first-part">Web</span
-          ><span class="last-part">Studio</span></a
-        >
+        <nav>
+          <a class="logo" href="./index.html"
+            ><span class="first-part">Web</span
+            ><span class="last-part">Studio</span></a
+          >
 
-        <ul class="nav-list list">
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="./index.html">Студія</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="./portfolio.html"
-              >Портфоліо</a
+          <ul class="nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="./index.html">Студія</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="./portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="/">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul>
+          <li>
+            <a class="header-mail-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="/">Контакти</a>
+          <li>
+            <a class="header-tel-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
+      </header>
 
-      <ul class="nav-list list">
-        <li>
-          <a class="header-mail-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-tel-link link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
-    </header>
     <!-- Hero -->
     <main>
       <section class="section-hero">
@@ -60,7 +68,7 @@
       <!-- Особливості -->
       <section>
         <h2 class="visually-hidden">Особливості</h2>
-        <ul class="list">
+        <ul>
           <li>
             <h3 class="peculiarities-title">увага до деталей</h3>
             <p class="peculiarities-text">
@@ -93,7 +101,7 @@
       <!-- Описание работы -->
       <section>
         <h2 class="section-title">Чим ми займаємося</h2>
-        <ul class="list">
+        <ul>
           <li>
             <img
               src="./images/box1.jpg"
@@ -177,7 +185,7 @@
         ><span class="last-part-footer">Studio</span></a
       >
       <address>
-        <ul class="adress-list">
+        <ul>
           <li>
             <a
               class="address"
